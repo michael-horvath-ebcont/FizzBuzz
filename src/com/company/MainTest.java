@@ -19,6 +19,8 @@ class MainTest {
         String expected = "4";
         String actual = FizzBuzz.run(4);
 
+        Assertions.assertEquals(expected, actual); 
+
     }
 
 }
