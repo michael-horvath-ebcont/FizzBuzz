@@ -1,6 +1,7 @@
 package com.company;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
 
 class MainTest {
 
@@ -12,5 +13,12 @@ class MainTest {
             * number % 5 ==0: print number fuzz
             * both: print number FizzBuzz
      */
+
+    @Test
+    void enter_normal_number() {
+        String expected = "4";
+        String actual = FizzBuzz.run(4);
+
+    }
 
 }
